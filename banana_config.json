@@ -1,0 +1,15 @@
+{
+  "name": "instruct-pix2pix",
+  "category": "Computer Vision",
+  "example_input": {
+    "prompt": "make it anime",
+    "image_url": "https://d2wj74g3m7bo3f.cloudfront.net/photo-of-a-bowl-of-strawberries.webp",
+    "seed": 392030,
+    "guidance_scale": 7.5,
+    "image_guidance_scale": 1.5
+  },
+  "example_output": {
+    "image_base64": "/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC..."
+  },
+  "version": "2"
+}
