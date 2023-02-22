@@ -6,7 +6,7 @@ import torch
 import os
 
 def download_model():
-    model = StableDiffusionInstructPix2PixPipeline.from_pretrained("timbrooks/instruct-pix2pix", safety_checker=none, torch_dtype=torch.float16)
+    model = StableDiffusionInstructPix2PixPipeline.from_pretrained("timbrooks/instruct-pix2pix", safety_checker=None, torch_dtype=torch.float16)
 
 if __name__ == "__main__":
     download_model()
